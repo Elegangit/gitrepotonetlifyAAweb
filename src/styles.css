@@ -1,0 +1,100 @@
+body {
+  font-family: arial, sans-serif;
+  background-image: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg");
+  background-repeat: repeat;
+  background-size: 900px;
+  height: 900px;
+}
+
+h1 {
+  color: #16020200;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 10px 15px;
+}
+
+li {
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.description {
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.weather-app {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+}
+
+.search-form {
+  color:blue
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.current-location-button {
+  color:blue;
+  font-size: 20px;
+  margin-bottom: 50px;
+  width: 10px;
+}
+
+.date {
+  color: black;
+}
+
+.city {
+  color: black;
+  font-size: 20px;
+  font-family: Calibri;
+}
+
+.city-input {
+  color: black;
+  font-size: 20px;
+  font-family: Calibri;
+}
+
+button {width: 30px; }

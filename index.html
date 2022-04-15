@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link href="src/Date.js" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <tilte> Monthly Weather Forecast </title>
+ 
+  </head>
+
+ <hr>
+  <i class="fa-duotone fa-clouds-moon"><p> To find your location, click Curent.</p></i>
+
+<body>
+    <h1> Monthly Forecast for 2022 </h1>
+    <style> h1 {font-size:30px; color:white; background: skyblue; text-decoration: undersline; background-image: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg")}
+      </style> 
+
+    <h2 id="date"> Current Calender and Clock </h2>
+<script>
+  let now = new Date ();
+  let dayIndex = date.getDay();
+
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
+  let day = days[dayIndex];
+
+  return `${day} ${date} ${hours}:${minutes}`;
+</script>
+
+<hr> 
+
+<div class="container">
+  <div class="weather-app">
+    <form class="search-form" id="search-form">
+      <div class="row">
+        <div class="col-6">
+          <input
+            type="search"
+            placeholder="Type a city.."
+            autofocus="on"
+            autocomplete="off"
+            id="city-input"
+            class="form-control shadow-sm"
+          />
+        </div>
+
+        <div class="col-3">
+          <input
+            type="submit"
+            value="Search"
+            class="form-control btn btn-primary shadow-sm w-100"
+          />
+        </div>
+        <div class="col-3">
+          <button
+            class="btn btn-success w-100"
+            id="current-location-button">
+            Current
+          </button>
+        </div>
+      </div>
+    </form>
+    <h1 id="city"></h1>
+    <ul>
+      <li id="date"></li>
+      <li id="description"></li>
+    </ul>
+    <div class="row">
+      <div class="col-6">
+        <div class="clearfix">
+          <div class="float-left">
+            <span class="temperature" id="temperature"></span> 
+            <span class="units"> <a href="#">°F </a></span>
+            <span class="temperature" id="temperature"></span> 
+            <span class="units"> <a href="#">°C </a></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <ul>
+          <li>Humidity: <span id="humidity"></span>%</li>
+          <li>Wind: <span id="wind"></span> km/h</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let now = new Date();
+  let h2 = document.querySelector("h2");
+  let date = now.getDate();
+  let hours = now.getHours();
+  let minutes = now.getMinutes();
+  let year = now.getFullYear();
+
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  let day = days[now.getDay()];
+
+  let months = [
+    "Jan",
+    "Feb",
+    "March",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ];
+
+  let h2 = document.querySelector("h2");
+   h2.innerHTML = return get.Date`${day} ${month} ${date}, ${hours}:${minutes}, ${year}`;
+</script>
+
+<hr>
+
+    <p> This web is designed using SheCodes, open sourced on <a href="https://github.com/Elegangit/SHECODES-W6-HW/tree/Weather/Weather-Web-AA-app"> GitHub </a> and hosted with <a href="https://www.netlify.com/"> Netlify </a></p>
+    <style>p{font-size:18px; color:#010c1b;} </style>
+    
+    <h7> Coded by Aniqa Afzal </h7>
+      <style> h7{font-size: 18px; color: rgba(20, 20, 20, 0.973); text-size-adjust: 12px; margin: 0 auto; display: in-line; text-align: center;}
+       <i class="fa-duotone fa-clouds-moon"></i>
+       h7 hover:{color:#f7f6fa ; } </style> 
+        
+
+<hr>
+
+<div class="backgroundImage" id="backgroundImage" >
+
+  <video class="video" loop="" muted="" src="https://prod-streaming-video-msn-com.akamaized.net/648cc494-7337-4644-9517-46877e93de76/486dfd9e-b104-4f2e-92a7-74c0eab6b14b.mp4" controls width="900" style="height: 248px; outline-color: green" margin: 0 auto width:device-width></video>
+
+  <span data-mscc-ic="false" id="backgroundImageOverlay" class="overlay overlay_hide"></span>
+    <script src="src/index.js"></script>
+    <script src="src/Date.js"></script>
+
+  </body>
+</html>
