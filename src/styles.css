@@ -2,7 +2,7 @@ body {
   font-family: arial, sans-serif;
   background-image: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg");
   background-repeat: repeat;
-  background-size: 900px;
+  background-size: 1000px ;
   height: 900px;
 }
 
@@ -50,23 +50,31 @@ li {
   max-width: 600px;
 }
 
-.weather-icon {
+.fa-duotone-fa-clouds-moon { color:skyblue;
   height: 64px;
   width: 64px;
   margin-right: 10px;
 }
 
+fas-fa-cloud{color: skyblue; 
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
   line-height: 1;
+  text-decoration: none;
 }
 
 .units {
   position: relative;
   top: -34px;
 }
+
+.icon {font-size: 14 px; text-align: right; }
 
 .search-form {
   color:blue
@@ -98,3 +106,14 @@ li {
 }
 
 button {width: 30px; }
+
+.displayweathercondition { color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+}
+
+#fahrenheit .active:hover{ color:black; text-decoration:none;}
+
+svg {width: 300px; height: 300px; margin: 0 Auto; text-align:center;}
