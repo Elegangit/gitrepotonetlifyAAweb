@@ -1,14 +1,14 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Arial;
   background-image: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg");
   background-repeat: repeat;
   background-size: 1000px ;
-  height: 900px;
+  height: 1000px;
 }
 
 h1 {
   color: #16020200;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 100;
   line-height: 28px;
   margin: 0;
@@ -16,7 +16,7 @@ h1 {
 
 h2 {
   color: black;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 ul {
@@ -26,7 +26,8 @@ ul {
 
 li {
   color: black;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: arial;
   font-weight: 100;
   height: 19px;
   line-height: 1;
@@ -35,7 +36,7 @@ li {
 
 .description {
   color: black;
-  font-size: 16px;
+  font-size: 64px;
   font-weight: 100;
   height: 19px;
   line-height: 1;
@@ -50,28 +51,31 @@ li {
   max-width: 600px;
 }
 
-.fa-duotone-fa-clouds-moon { color:skyblue;
+.icon class="fa-duotone-fa-clouds-moon" {color:blue;
   height: 64px;
   width: 64px;
-  margin-right: 10px;
+  margin: 0 auto;
 }
 
-fas-fa-cloud{color: skyblue; 
+.icon class="fas-fa-cloud" {color:blue; 
   height: 64px;
   width: 64px;
-  margin-right: 10px;
-}
+  margin: 0 auto;
+} 
+
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
   font-weight: 400;
-  line-height: 1;
+  line-height: 2;
   text-decoration: none;
 }
 
 .units {
   position: relative;
   top: -34px;
+  width: medium;
+  line-height: 2;
 }
 
 .icon {font-size: 14 px; text-align: right; }
@@ -105,7 +109,8 @@ fas-fa-cloud{color: skyblue;
   font-family: Calibri;
 }
 
-button {width: 30px; }
+button {width: 50px; background-color: transparent; color:black}
+button:hover { color:skyblue; }
 
 .displayweathercondition { color: rgb(33, 33, 33);
   font-size: 64px;
@@ -114,6 +119,51 @@ button {width: 30px; }
   text-decoration: none;
 }
 
-#fahrenheit .active:hover{ color:black; text-decoration:none;}
+.displaycelciusTemperature { color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none; }
+
+  .displayFahrenheitTemperature { color: rgb(33, 33, 33);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+.fahrenheit-link .active:hover{ color:black; text-decoration:none;}
+.celcius-link.active:hover { color:black; text-decoration:none;}
 
 svg {width: 300px; height: 300px; margin: 0 Auto; text-align:center;}
+
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.FButtonhandlesubmit {color: black;}

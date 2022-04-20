@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="src/styles.css" />
     <link href="src/Date.js" />
+    <link href="src/index.js" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <tilte> Weather Forecast </title>
   </head>
@@ -59,33 +60,28 @@
     <ul>
       <li id="date"></li>
       <li id="description"></li>
+      <div class="col-6">
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> km/h</li>
+          </ul>
+        </div>
     </ul>
+
     <ul>
     <div class="row">
       <div class="col-6">
-        <div class="fix">
           <div class="center">
-              <span class="temperature" id="temperature"></span>  
-               <span class="units">
-               <a href="" id="#" class="active">°C</a> | <a href="" id="#temperature-degree" class="active">F°</a>
-               <span class="temperature" id="temperature"></span>
-               <span class="units"> 
+            <strong id="temperature"></strong
+              ><span class="units"
+                ><a href="#" id="celsius-link" class="active">°C</a> |
+                <button <a href="#" id="fahrenheit-link">°F</a></button></span>
               </span></div> </div>
         </div>
       </div>
     </ul>
-      <div class="col-6">
-        <ul>
-          <li>Humidity: <span id="humidity"></span>%</li>
-          <li>Wind: <span id="wind"></span> km/h</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
+   
 <i class="fa-duotone-fa-clouds-moon"> </i>
-
 
     <p> This web is designed using SheCodes, open sourced on <a href="https://github.com/Elegangit/gitrepotonetlifyAAweb"> GitHub </a> and hosted with <a href="https://www.netlify.com/"> Netlify </a></p>
     <style>p{font-size:18px; color:#010c1b;} </style>
@@ -103,6 +99,7 @@
     <div style="grid-template-rows: 32px 46px 32px 16px auto 38px; height:248px;" role="banner"></div>
 
     
+    <svg href="src/undraw_weather_app.svg"></svg>
 
   <script src="src/index.js"></script>
   <script src="src/Date.js"></script>
