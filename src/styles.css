@@ -2,23 +2,34 @@ body {
   font-family: Arial;
   background-image: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg");
   background-repeat: repeat;
-  background-size: 1000px ;
+  background-size: 1100px ;
   height: 1000px;
 }
 
 h1 {
   color: #16020200;
-  font-size: 30px;
+  font-size: 70px;
   font-weight: 100;
-  line-height: 28px;
-  margin: 0;
+  line-height: 80px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h2 {
   color: black;
   font-size: 25px;
+  font-family: Calibri;
+  text-align: center;
+  margin: 0 auto;
 }
 
+h3 {
+  color: black;
+  font-size: 25px;
+  font-family: Calibri;
+  text-align: center;
+  margin: 0 auto;
+}
 ul {
   margin: 0 0 10px;
   padding: 10px 15px;
@@ -26,10 +37,10 @@ ul {
 
 li {
   color: black;
-  font-size: 20px;
+  font-size: 25px;
   font-family: arial;
   font-weight: 100;
-  height: 19px;
+  height: 20px;
   line-height: 1;
   list-style: none;
 }
@@ -38,20 +49,22 @@ li {
   color: black;
   font-size: 64px;
   font-weight: 100;
-  height: 19px;
+  height: 30px;
   line-height: 1;
   list-style: none;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .weather-app {
   border: 1px solid #dadde1;
-  padding: 15px;
+  padding: 15px 25 px;
   margin: 20px auto;
   border-radius: 10px;
   max-width: 600px;
 }
 
-.icon class="fa-duotone-fa-clouds-moon" {color:blue;
+.icon class="fa-duotone-fa-clouds-moon" {color: blue;
   height: 64px;
   width: 64px;
   margin: 0 auto;
@@ -64,39 +77,46 @@ li {
 } 
 
 .temperature {
-  color: rgb(33, 33, 33);
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 2;
+  color: black;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 5;
   text-decoration: none;
 }
 
 .units {
   position: relative;
   top: -34px;
-  width: medium;
+  width: large;
   line-height: 2;
+  font-size:20px;
+  color:black;
+  text-decoration:none;
+}
+.units:hover{color: black;}
 }
 
-.icon {font-size: 14 px; text-align: right; }
+.icon {font-size: 15px; text-align: right; }
 
 .search-form {
   color:blue
-  font-size: 20px;
+  font-size: 80px;
   margin-bottom: 60px;
 }
 
 .current-location-button {
-  color:blue;
+  color:green;
   font-size: 20px;
-  margin-bottom: 50px;
-  width: 10px;
+  margin-bottom: 80px;
+  width: 80px;
 }
+.container{width: 800px; padding: 100px 250 border--radius:25%; }
 
 .date {
   color: black;
+  font-size: 20px;
 }
-
+.day-list {color:navy; }
 .city {
   color: black;
   font-size: 20px;
@@ -109,61 +129,145 @@ li {
   font-family: Calibri;
 }
 
-button {width: 50px; background-color: transparent; color:black}
-button:hover { color:skyblue; }
-
 .displayweathercondition { color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 1;
   text-decoration: none;
 }
 
 .displaycelciusTemperature { color: rgb(33, 33, 33);
-  font-size: 64px;
-  font-weight: 400;
-  line-height: 1;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 2;
   text-decoration: none; }
 
-  .displayFahrenheitTemperature { color: rgb(33, 33, 33);
-    font-size: 64px;
+.displayFahrenheitTemperature { color: rgb(33, 33, 33);
+    font-size: 70px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 2;
     text-decoration: none;
   }
 
-.fahrenheit-link .active:hover{ color:black; text-decoration:none;}
-.celcius-link.active:hover { color:black; text-decoration:none;}
+.fahrenheit-link{color:black; text-decoration:bold; font-size:28px;}
+.celcius-link:hover {color:blue; text-decoration:none;font-size:20px;}
 
-svg {width: 300px; height: 300px; margin: 0 Auto; text-align:center;}
-
+svg {width: 800px; height: 200px; margin: 0 Auto; text-align:center; margin: center;}
 
 .weather-temperature img {
-  margin-right: 5px;
+  margin-right: 15px;
   height: 64px;
   width: 64px;
+  color: black;
 }
 
 .weather-temperature strong {
   color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 70 px;
   line-height: 1;
   font-weight: 400;
 }
 
 .weather-temperature .units {
+  color:black;
   position: relative;
-  font-size: 16px;
+  font-size: 64px;
   top: -34px;
+  padding: 15px;
 }
 
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
+  font-size:30px;
 }
 
-.weather-temperature .active:hover {
+.weather-temperature .active {
+  color: black;
+  text-decoration: none;
+  font-size:30px;
+}
+
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 30px;
+  opacity: 0.5;
+  color:black;
+}
+.days {color: blue;}
+.col {color:black;}
+.col-6 current-temp{color: black;}
+.weather-forecast-temperature-min { color: black;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures { color: black;
+  font-size: 30px;
+}
+
+.video {padding: 15px 25px; border-radius: 10%;}
+
+.a {color:black; }
+link:hover {color: black;}
+
+.weather-info {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px rgba(68, 79, 90, 0.4);
+  margin: auto;
+  margin-top: 25px;
+  max-width: 80%;
+  padding: 15px;
+}
+.active {
+  color:black;
   text-decoration: none;
 }
+.current-weather {
+  padding: 15px;
+}
+.current-weather-icon { padding: 15px;
+}
+.current-temp {
+  font-size: 32px;
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+.current-details { color: black;
+  float: right;
+}
+.five-day-forecast { color: black;
+  text-align: center;
+  line-height: 32px;
+}
+.forecast-temperature {color: black;}
 
-.FButtonhandlesubmit {color: black;}
+.day-hi {
+  opacity: 80%;
+}
+.low {
+  opacity: 80%;
+}
+.day-low {
+  opacity: 80%;
+}
+#current-description {
+  text-transform: capitalize;
+}
+
+.row{ color: black;
+}
+.weekdays{color:black;}
+.days {color:navy;}
+.sunset {color: orange;}
+.sunrise {color: orangered;}
+.container {height: 500px; width:500px;}
+button { width:100px; padding: 15px 25px;}
+.outputFahrenheit {color: black;}
