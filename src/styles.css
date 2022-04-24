@@ -2,8 +2,10 @@ body {
   font-family: Arial;
   background-image: url("https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg");
   background-repeat: repeat;
-  background-size: 1500px ;
+  background-size: 1300px ;
+  background-image: device-width;
   height: 1000px;
+  background-position: fixed;
 }
 
 h1 {
@@ -13,6 +15,7 @@ h1 {
   line-height: 80px;
   margin: 0 auto;
   text-align: center;
+  width:device-width;
 }
 
 h2 {
@@ -21,6 +24,8 @@ h2 {
   font-family: Calibri;
   text-align: center;
   margin: 0 auto;
+  width:device-width;
+
 }
 
 h3 {
@@ -29,6 +34,8 @@ h3 {
   font-family: Calibri;
   text-align: center;
   margin: 0 auto;
+  width:device-width;
+
 }
 ul {
   margin: 0 0 10px;
@@ -54,6 +61,8 @@ li {
   list-style: none;
   text-align: center;
   margin: 0 auto;
+  width:device-width;
+
 }
 
 .weather-app {
@@ -102,6 +111,7 @@ li {
   color:blue
   font-size: 80px;
   margin-bottom: 60px;
+  width:device-width;
 }
 
 .current-location-button {
@@ -110,7 +120,7 @@ li {
   margin-bottom: 80px;
   width: 80px;
 }
-.container{width: 800px; padding: 100px 250 border--radius:25%; }
+.container{width: 1000px; padding: 100px 250px border--radius:25%; width: device-width;}
 
 .date {
   color: black;
@@ -222,7 +232,7 @@ link:hover {color: black;}
   box-shadow: 5px 5px 3px rgba(68, 79, 90, 0.4);
   margin: auto;
   margin-top: 25px;
-  max-width: 80%;
+  max-width: 100%;
   padding: 15px;
 }
 .active {
@@ -268,6 +278,7 @@ link:hover {color: black;}
 .days {color:navy;}
 .sunset {color: orange;}
 .sunrise {color: orangered;}
-.container {height: 500px; width:500px;}
+.container {height: 500px; width:device-width;
+}
 button { width:100px; padding: 15px 25px;}
 .outputFahrenheit {color: black;}
