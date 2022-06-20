@@ -67,3 +67,7 @@ function getdays() {
   }
   return arr;
 }
+
+import React from "react";
+import "./styles.css";
+import APi from "./App.js";
