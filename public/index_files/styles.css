@@ -1,0 +1,460 @@
+.App { body {background: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%);
+    font-family: Arial;
+    background-repeat: non-repeat;
+    background-size: 5555px;
+    background-image: device-width;
+    height: 5555px;
+    background-position: fixed;
+    text-align: center;
+    background: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%);
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  }
+  @media (max-width: 900px;) {
+    h1 {
+      color: #16020200;
+      font-size: 70px;
+      font-weight: 64px;
+      line-height: 64px;
+      margin: 0 auto;
+      margin-left:500;
+      display: inline-flex;
+      text-align: center;
+      justify-content: center;
+      position:center;
+      width: device-width;
+      background: linear-gradient(
+        179.2deg,
+        rgb(21, 21, 212) 0.9%,
+        rgb(53, 220, 243) 95.5%
+      );
+    }
+
+    h2 {
+      color: black;
+      font-size: 25px;
+      font-family: Calibri;
+      text-align: center;
+      margin: 0 auto;
+      width: 100px;
+      text-align: center;
+      padding: 15px 25px;
+      background: radial-gradient(
+        circle at 10% 20%,
+        rgb(253, 239, 132) 0%,
+        rgb(247, 198, 169) 54.2%,
+        rgb(21, 186, 196) 100.3%
+      );
+      border-radius: 55%;
+    }
+
+    h3 {
+      color: black;
+      font-size: 25px;
+      font-family: Calibri;
+      text-align: center;
+      margin: 0 auto;
+      width: device-width;
+      background: radial-gradient(
+        circle at 10% 20%,
+        rgb(253, 239, 132) 0%,
+        rgb(247, 198, 169) 54.2%,
+        rgb(21, 186, 196) 100.3%
+      );
+      border-radius: 55%;
+    }
+
+    ul {
+      margin: 0 0 10px;
+      padding: 10px 15px;
+      font-size: 80px;
+      display: inline;
+      background: radial-gradient(
+        circle at 10% 20%,
+        rgb(253, 239, 132) 0%,
+        rgb(247, 198, 169) 54.2%,
+        rgb(21, 186, 196) 100.3%
+      );
+      border-radius: 55%;
+    }
+
+    li {
+      color: black;
+      font-size: 40px;
+      font-family: Calibri;
+      font-weight: 100;
+      line-height: 1;
+      list-style: none;
+      display: inline-flex;
+      background: radial-gradient(
+        circle at 10% 20%,
+        rgb(253, 239, 132) 0%,
+        rgb(247, 198, 169) 54.2%,
+        rgb(21, 186, 196) 100.3%
+      );
+      border-radius: 55%;
+    }
+
+    .weather-detail__text {
+      color: black;
+      font-family: Calibri;
+      font-size: 40px;
+      font-weight: 100;
+      line-height: 1;
+      list-style: none;
+      display: inline;
+    }
+    .description {
+      color: black;
+      font-size: 40px;
+      font-weight: 100;
+      height: 3;
+      line-height: 1;
+      list-style: none;
+      text-align: center;
+      margin: 0 auto;
+      width: device-width;
+    }
+    .p {
+      font-size: 40px;
+      text-align: center;
+      margin: 0 auto;
+      margin-left: 500;
+      width: device-width;
+      color: black;
+      border-radius: 20%;
+      position:center;
+      justify-content:center;
+    }
+    .weather-app {
+      border: 1px solid #dadde1;
+      padding: 15px 25px;
+      margin: 20px auto;
+      border-radius: 20px;
+      max-width: 900px;
+      font-size: 40px;
+    }
+
+    .fa-duotone-fa-clouds-moon {
+      color: blue;
+      height: 20px;
+      width: 64px;
+      margin: 0 auto;
+    }
+
+    .fas-fa-cloud {
+      color: blue;
+      height: 20px;
+      width: 64px;
+      margin: 0 auto;
+  }
+  .temperature {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 5;
+    text-decoration: none;
+  }
+
+  .units {
+    position: relative;
+    top: -34px;
+    width: large;
+    line-height: 2;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .icon {
+    font-size: 10px;
+    text-align: right;
+  }
+
+  .search-form {
+    color: blue font-size 80px;
+    margin-bottom: 64px;
+    width: device-width;
+  }
+
+  .current-location-button {
+    color: orchid;
+    font-size: 20px;
+    margin-bottom: 80px;
+    width: 90px;
+  }
+  .container {
+    font-size: 20px;
+    line-height: 1;
+    display: block;
+    height:900px;
+    width:1500px;
+    padding: 100px 250px;
+    border-radius: 10%;
+    width: device-width;
+    text-align: center;
+    background-color: linear-gradient(
+      circle at 10% 20%,
+      rgb(253, 239, 132) 0%,
+      rgb(247, 198, 169) 54.2%,
+      rgb(21, 186, 196) 100.3%
+    );
+  }
+  .date {
+    color: black;
+    font-size: 20px;
+  }
+  .days {
+    color: navy;
+    font-size: 20px;
+    display: block;
+  }
+  .city {
+    color: black;
+    font-size: 20px;
+    font-family: Calibri;
+    margin-left: 500;
+    margin: 0 auto;
+    text-align:center;
+  }
+
+  .city-input {
+    color: black;
+    font-size: 20px;
+    font-family: Calibri;
+  }
+
+  .displayweathercondition {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 2;
+    text-decoration: none;
+  }
+
+  .displaycelciusTemperature {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 2;
+    text-decoration: none;
+  }
+
+  
+  .displayFahrenheitTemperature {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 2;
+    text-decoration: none;
+  }
+
+  .fahrenheit-link {
+    color: black;
+    text-decoration: bold;
+    font-size: 40px;
+  }
+  .celcius-link:hover {
+    color: blue;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  svg {
+    margin: 0 Auto;
+    text-align: center;
+    margin: center;
+  }
+
+  .weather-temperature img {
+    margin-right: 10px;
+    height: 5px;
+    width: 5px;
+    color: black;
+  }
+ 
+  .weather-detail__text {
+    color: #878787;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+
+  .weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 40px;
+    line-height: 2;
+    font-weight: 500;
+  }
+
+  .weather-temperature .units {
+    color: black;
+    position: relative;
+    font-size: 40px;
+    top: -34px;
+    padding: 15px;
+  }
+
+  .weather-temperature .active {
+    color: black;
+    cursor: default;
+    font-size: 40px;
+  }
+
+  .weather-temperature .active {
+    color: black;
+    text-decoration: none;
+    font: size 40px;
+  }
+
+  .weather-forecast {
+    font-size: 40px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    margin-right: 24px;
+    margin-left: 24px;
+    text-align: center;
+    line-height: 1;
+    color: #000;
+  }
+
+  .weather-forecast-date {
+    font-size: 40px;
+    opacity: 0.8;
+    color: black;
+    line-height: 2;
+  }
+  .days {
+    color: black;
+    font-size: 40px;
+  }
+  .col {
+    color: black;
+    font-size: 20px;
+  }
+  .col-6 current-temp {
+    color: black;
+    font-size: 40px;
+  }
+  .weather-forecast-temperature-min {
+    color: black;
+    font-size: 30px;
+    opacity: 0.8;
+  }
+
+  .weather-forecast-temperatures {
+    color: black;
+    font-size: 30px;
+  }
+
+  .video {
+    height: 900px;
+    width: 1500px;
+    padding: 15px 25px;
+    border-radius: 20%;
+  }
+
+  .a {
+    color: black;
+    font-size: 20px;
+  }
+  link:hover {
+    color: black;
+  }
+
+  .weather-info {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(68, 79, 90, 0.4);
+    margin: auto;
+    margin-top: 25px;
+    max-width: 100%;
+    padding: 15px;
+    font-size: 40px;
+  }
+  .active {
+    color: black;
+    text-decoration: none;
+  }
+  .current-weather {
+    padding: 15px;
+    font-size: 40px;
+  }
+  .current-weather-icon {
+    padding: 15px;
+  }
+  .current-temp {
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+  }
+  .current-details {
+    color: black;
+    float: right;
+    font-size: 40px;
+  }
+  .five-day-forecast {
+    color: black;
+    text-align: center;
+    line-height: 32px;
+  }
+  .forecast-temperature {
+    color: black;
+    text-align: center;
+    font-size: 44px;
+  }
+
+  .day-hi {
+    opacity: 80%;
+    font-size: 30px;
+  }
+  .low {
+    opacity: 80%;
+    font-size: 30px;
+  }
+  .day-low {
+    opacity: 80%;
+    font-size: 30px;
+  }
+  #current-description {
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+
+  .row {
+    color: black;
+    font-size: 30px;
+  }
+  .weekdays {
+    color: black;
+    font-size: 64px;
+  }
+  .days {
+    color: navy;
+    font-size: 64px;
+  }
+  .sunset {
+    color: orange;
+  }
+  .sunrise {
+    color: orangered;
+  }
+  .container {
+    height: 900px;
+    width: 1500px;
+    text-align: center;
+    font-size: 30px;
+  }
+  button {
+    width: 150px;
+    padding: 15px 25px;
+    text-align: center;
+  }
+  .outputFahrenheit {
+    color: black;
+  }
+
+body {background-color: linear-gradient(89.2deg, rgb(191, 241, 236) 22.3%, rgb(109, 192, 236) 84.1%); background-repeat: non-repeat;
+  }
+}
